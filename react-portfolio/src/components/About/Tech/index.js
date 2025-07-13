@@ -1,11 +1,11 @@
 import "./index.scss"; 
-import AnimatedLetters from "../AnimatedLetters"
+import AnimatedLetters from "../../AnimatedLetters"
 import { useEffect, useState } from "react";
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPython, faCss3, faJava, faHtml5, faAmazon, faReact } from "@fortawesome/free-brands-svg-icons";
 import Loader from "react-loaders";
-import LanguageList from "./LanguageList";
+import TechList from "../TechList";
 
 const About = () => {
     
@@ -29,10 +29,11 @@ const About = () => {
                         <AnimatedLetters letterClass={letterClass}  strArray = {"About me".split("")} idx={15}/>
                     </h1>
                     <p>
-                    I am a very ambitious software developer with a unique background that has prepared me to be a team player who communicates effectively, faces problems analytically and has the technical skills to tackle any challenge. 
+                    I am a very ambitious full-stack developer with a unique background that has prepared me to be a team player who communicates effectively, faces problems analytically and has the technical skills to tackle any challenge. 
                     <br/>
-                    <LanguageList />
-                    <Link to="/about/tech" className="flat-button">FRAMEWORKS/TECHNOLOGIES</Link>
+                    <TechList />
+                    <Link to="/about" className="flat-button">LANGUAGES</Link>
+                    <br/>
                     <Link to="/about/dev" className="flat-button">DEVELOPMENT TOOLS</Link>
                     </p>
                 </div>
