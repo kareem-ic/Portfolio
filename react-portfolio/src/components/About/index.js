@@ -32,7 +32,7 @@ const About = () => {
                     I am a very ambitious software developer with a unique background that has prepared me to be a team player who communicates effectively, faces problems analytically and has the technical skills to tackle any challenge. 
                     <br/>
                     <LanguageList />
-                    <Link to="/about/tech" className="flat-button">FRAMEWORKS/TECHNOLOGIES</Link>
+                    <Link to="/tech" className="flat-button">FRAMEWORKS/TECHNOLOGIES</Link>
                     <Link to="/about/dev" className="flat-button">DEVELOPMENT TOOLS</Link>
                     </p>
                 </div>
