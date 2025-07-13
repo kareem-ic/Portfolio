@@ -55,12 +55,16 @@
             height: auto; 
             animation: rotateIn 1s linear both; 
             animation-delay: 1.4s; 
+            // border: none;
+            // outline: none;
+            // box-shadow: none;
+            // background: transparent;
         }
     }
 }
 
 h2 {
-    color: #8d8d8d;
+    color: #ade8f4;
     font-weight: 400;
     font-size: 11px;
     font-family: sans-serif;
