@@ -3,7 +3,15 @@ import './index.scss';
 
 const Timeline = () => {
   const [events, setEvents] = useState([
-    
+    {
+      date: 'Mar 2025 – Present',
+      title: 'Founding Engineer — JVS Tax Services',
+      description: [
+        'Drove 100% of the end-to-end technical strategy, architecture, and execution for JVS Tax Services’ digital platform, designing and launching a modern, scalable web application that supports over 1,000 active users',
+        'Led the full lifecycle development of a secure, responsive, and user-centric tax services website using <b>JavaScript</b>, <b>HTML5</b>, and <b>CSS3</b>, resulting in improved client engagement and operational efficiency',
+      ],
+      expanded: false,
+    },
     {
       date: 'Dec 2024 – Feb 2025',
       title: 'Software Engineer Intern — Toyz Electronics, Inc.',
