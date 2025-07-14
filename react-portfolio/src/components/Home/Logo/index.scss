@@ -10,23 +10,32 @@
   left: 700px;
   margin: auto;
   animation: bounce 8s ease-in-out;
-  
+  background: transparent;
+  outline: none;
+  border: none;
+  image-rendering: auto;
+
+  // Remove broken masking
+  // -webkit-mask-image: url('/assets/images/K.png');
+  // mask-image: url('/assets/images/K.png');
+  // mask-repeat: no-repeat;
+  // mask-position: center;
 
   &.animate {
     opacity: 1;
   }
 
-  .solid-logo {
+  img.solid-logo {
     position: absolute;
-    top: auto;
-    right: auto;
-    bottom: auto;
+    top: 0;
     left: 0;
-    margin: auto;
     width: 100%;
-    opacity: 0;
-    transform: rotateZ(30deg) !important;
+    height: 100%;
+    object-fit: contain; // or 'cover' if you want it to fill the area
     z-index: 1;
+    transform: rotateZ(30deg);
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
 
     &.animate {
       opacity: 1;
