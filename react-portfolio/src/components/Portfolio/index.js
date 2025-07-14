@@ -3,9 +3,19 @@ import Loader from "react-loaders";
 import "./index.scss";
 import AnimatedLetters from "../AnimatedLetters";
 import portfolioData from "../data/portfolio.json";
+import coinciseImage from '../../assets/images/coincise1.png';
+import pulsePathImage from '../../assets/images/pulsepath.png';
+import paySimImage from '../../assets/images/paysim.png';
+
+
 
 const Portfolio = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
+    const images = {
+  Coincise: coinciseImage,
+  PulsePath: pulsePathImage,
+  PaySim: paySimImage,
+};
     console.log(portfolioData);
 
     useEffect(() => {
@@ -25,8 +35,7 @@ const Portfolio = () => {
                     portfolio.map((port, idx) => {
                         return (
                             <div key={idx} className="image-box">
-                                <img src={port.cover} alt="portfolio" className = "portfolio-image"/>
-                                <div className="content">
+                                <img src={images[port.title]} alt={port.title} className="portfolio-image" />                                <div className="content">
                                     <p className="title">{port.title}</p>
                                     <h4 className="description">{port.description}</h4>
                                     <button className="btn" onClick={() => window.open(port.url)}>View</button>

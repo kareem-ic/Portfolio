@@ -1,3 +1,19 @@
 {
-    "portfolio": []
+    "portfolio": [
+        {
+            "title": "Coincise", 
+            "description": "ReactJS, TypeScript, Python", 
+            "url": "https://github.com/kareem-ic/Coincise"
+        },
+        {
+            "title": "PulsePath", 
+            "description": "Python, ReactJS, Flask", 
+            "url": "https://github.com/kareem-ic/PulsePath-AI-Therapy-Tool"
+        },
+        { 
+            "title": "PaySim", 
+            "description": "TypeScript, Python, AWS CDK", 
+            "url": "https://github.com/kareem-ic/paysim-sandbox"
+        }
+    ]
 }
