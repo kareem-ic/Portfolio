@@ -18,7 +18,7 @@
         cursor: pointer;
 
         &::before {
-            content: '<h1>';
+            content: '';
             font-family: 'La Belle Aurore';
             color: #ffd700;
             font-size: 18px;
@@ -29,7 +29,7 @@
         }
 
         &::after {
-            content: '<h1>';
+            content: '';
             font-family: 'La Belle Aurore';
             color: #ffd700;
             font-size: 18px;

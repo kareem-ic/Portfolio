@@ -4,8 +4,8 @@ import "./index.scss";
 import AnimatedLetters from "../AnimatedLetters";
 import portfolioData from "../data/portfolio.json";
 import coinciseImage from '../../assets/images/coincise1.png';
-import pulsePathImage from '../../assets/images/pulsepath.png';
-import paySimImage from '../../assets/images/paysim.png';
+import pulsePathImage from '../../assets/images/pulsepath2.png';
+import paySimImage from '../../assets/images/paysim1.png';
 
 
 
