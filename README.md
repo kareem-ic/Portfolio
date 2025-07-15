@@ -2,7 +2,7 @@
 
 Welcome to my coding portfolio! This web application is built using React.js with Sass styling, showcasing my skills, projects, and achievements in the field of web development.
 
-![Portfolio Screenshot](src/assets/images/cover.png)
+<!-- ![Portfolio Screenshot](src/assets/images/cover.png) -->
 
 ## Table of Contents
 
