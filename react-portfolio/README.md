@@ -11,8 +11,6 @@ Welcome to my coding portfolio! This web application is built using React.js wit
 - [Installation](#installation)
 - [Technologies Used](#technologies-used)
 - [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -65,7 +63,6 @@ The project structure follows a standard React application layout. Key directori
 
 
 
-This project is licensed under the [MIT License](LICENSE).
 
 ---
 
